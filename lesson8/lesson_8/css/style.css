@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic)&distlay=swap");
+
+body {
+  font-family: "Lato";
+  color: #424551;
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.page__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 40px;
+}
+.title__text {
+  line-height: 160%;
+  margin-bottom: 48px;
+}
+.you__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 24px;
+}
+.you__block {
+  line-height: 160%;
+  margin-bottom: 112px;
+}
+
+.you__block li {
+  margin-bottom: 4px;
+  min-height: 30px;
+  padding-left: 32px;
+  background: url(../img/icons/check.svg) 0 6px no-repeat;
+}
+img {
+  max-width: 415px;
+  max-height: 350px;
+  background-color: #ffcf2d;
+  border-radius: 4px;
+}
+
+.curator__block p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 8px;
+}
+.curator__block h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 16px;
+}
+.senior__item p {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787a80;
+  margin-bottom: 32px;
+}
+.rate__block {
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.rate__block li:first-child {
+  padding-left: 24px;
+  background: url(../img/icons/Star.svg) 0 5px no-repeat;
+}
+.rate__block li:first-child:hover {
+  color: royalblue;
+}
+.rate__block li:nth-child(2) {
+  padding-left: 24px;
+  background: url(../img/icons/Vector.svg) 0 5px no-repeat;
+}
+.rate__block li:last-child {
+  padding-left: 24px;
+  background: url(../img/icons/man.svg) 0 5px no-repeat;
+}
+.mattis__block {
+  line-height: 160%;
+  margin-bottom: 100px;
+}
+
+/*==================Test Point===========================*/
+
+.test-page h2 {
+  text-align: center;
+  font-size: 30px;
+  border-style: dashed;
+  margin-bottom: 40px;
+  min-height: 30px;
+  line-height: 140%;
+  color: rgba(59, 154, 154, 0.694);
+
+  background: url(../img/icons/test_icons/plus.svg) 530px 11px no-repeat;
+  background-color: rgb(240, 184, 115);
+}
+.test-block p {
+  max-width: 500px;
+  min-height: 400px;
+  background: url(../img/test_image/illustration.png) 00 / 55% 100% no-repeat;
+  padding-left: 300px;
+  margin-bottom: 40px;
+  background-color: burlywood;
+  border-radius: 5%;
+}
+.block-test p {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+.block-test p:first-child:hover {
+  color: blue;
+}
+
+.block-test p:nth-child(2) {
+  color: rgb(55, 111, 111);
+  max-width: 500px;
+}
+.block-test p:nth-child(2):hover {
+  color: black;
+  background: url(../img/test_image/Hero_background.png);
+}
+.block-test p:last-child {
+  max-width: 400px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  font-family: "Manrope";
+  font-weight: 900;
+  line-height: 160%;
+  background-color: cadetblue;
+  border-style: solid;
+  border-color: crimson;
+  border-radius: 10px;
+}
+.block-test p:last-child:hover {
+  color: rgb(203, 72, 24);
+  background-color: darkgreen;
+}
+
+.more-test p {
+  max-width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 160%;
+  color: #ffcf2d;
+  background: url(../img/test_image/Hero_background.png) 0 0 no-repeat;
+  margin-bottom: 50px;
+}
+.more-test p:hover {
+  font-size: 40px;
+  min-width: 100%;
+  color: azure;
+  background: black;
+}
